@@ -31,6 +31,7 @@ yarn-error.*
 *.pem
 
 # local env files
+.env
 .env*.local
 
 # typescript
@@ -39,3 +40,10 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# local visual checks and package cache
+.chrome-preview*/
+chrome-profile-*/
+.npm-install-cache/
+.expo-cli-home/
+/preview*.png
